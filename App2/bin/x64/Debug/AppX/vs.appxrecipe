@@ -16,25 +16,25 @@
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>CDB3138244D7581D683132F4849BD8AE0DD5FBA03CE57A487A956A20B23FA079</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>aee096b4-c598-46ac-a5fc-e420ac4d4152_1.0.1.0_x64__e83zetzdn3mnt</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>9C028A5378E3613171A7D48E38990B5BD368D7FDA822BCB7D9315065D1FE4F81</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>aee096b4-c598-46ac-a5fc-e420ac4d4152_1.0.7.0_x64__e83zetzdn3mnt</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>aee096b4-c598-46ac-a5fc-e420ac4d4152_e83zetzdn3mnt!App</RegisteredUserModeAppID>
     <RegisteredPackageID>aee096b4-c598-46ac-a5fc-e420ac4d4152</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=c</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.1.0</RegisteredVersion>
+    <RegisteredVersion>1.0.7.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-02T09:04:38.046</Modified>
+      <Modified>2017-03-03T03:00:22.295</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x64\Debug\App2.exe">
-      <PackagePath>entrypoint\App2.exe</PackagePath>
-      <Modified>2017-03-02T09:04:36.045</Modified>
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x64\Debug\StressTest.exe">
+      <PackagePath>entrypoint\StressTest.exe</PackagePath>
+      <Modified>2017-03-03T03:00:19.071</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\c\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -486,9 +486,9 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T09:22:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x64\Debug\App2.xr.xml">
-      <PackagePath>App2.xr.xml</PackagePath>
-      <Modified>2017-03-02T08:54:01.689</Modified>
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x64\Debug\StressTest.xr.xml">
+      <PackagePath>StressTest.xr.xml</PackagePath>
+      <Modified>2017-03-03T03:00:18.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -497,11 +497,11 @@
     <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-02T08:54:11.759</Modified>
+      <Modified>2017-03-03T03:00:21.792</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x64\Debug\Core\App2.exe">
-      <PackagePath>App2.exe</PackagePath>
-      <Modified>2017-03-02T09:04:38.036</Modified>
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x64\Debug\Core\StressTest.exe">
+      <PackagePath>StressTest.exe</PackagePath>
+      <Modified>2017-03-03T03:00:22.287</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
