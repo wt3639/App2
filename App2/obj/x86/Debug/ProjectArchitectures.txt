@@ -1,1 +1,1 @@
-C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\App2.csproj;x86
+C:\Users\c\documents\visual studio 2015\Projects\App2\App2\App2.csproj;x86

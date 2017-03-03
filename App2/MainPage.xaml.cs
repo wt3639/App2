@@ -14,7 +14,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using Windows.Devices.Radios;
-
+using Windows.Networking.Connectivity;
 
 //“空白页”项模板在 http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409 上有介绍
 
@@ -38,26 +38,41 @@ namespace App2
             int number = Convert.ToInt32(i);
             var accessLevel = await Radio.RequestAccessAsync();
             var radios = await Radio.GetRadiosAsync();
+            var sucesscount = 0;
+            var failcount = 0;
             Radio wifiRadio = radios.FirstOrDefault(radio => radio.Kind == RadioKind.WiFi);
             if (wifiRadio == null)
             {
                 textBlock.Text = "wifi cannot open";
+                button.IsEnabled = true;
+                button1.IsEnabled = true;
                 return;
             }
             // wifiRadio.StateChanged = Radio_StateChange
+            if (wifiRadio.State == RadioState.Off)
+            {
+                await wifiRadio.SetStateAsync(RadioState.On);
+               // textBlock.Text = Convert.ToString(count + 1);
+            }
+            await Task.Delay(10000);
             for (int count = 0; count < number; count++)
-            {  
-                if (wifiRadio.State == RadioState.On)
+            {
+                await wifiRadio.SetStateAsync(RadioState.Off);
+                await Task.Delay(5000);
+                await wifiRadio.SetStateAsync(RadioState.On);
+                textBlock.Text = Convert.ToString(count+1);                 
+                await Task.Delay(10000);
+                var temp = NetworkInformation.GetInternetConnectionProfile();
+                if (temp != null && temp.IsWlanConnectionProfile)
                 {
-                    await wifiRadio.SetStateAsync(RadioState.Off);
-                    textBlock.Text = Convert.ToString(count+1);
+                    sucesscount++;
+                    textBlock5.Text = Convert.ToString(sucesscount);
                 }
                 else
-                { 
-                    await wifiRadio.SetStateAsync(RadioState.On);
-                    textBlock.Text = Convert.ToString(count+1);                 
+                {
+                    failcount++;
+                    textBlock6.Text = Convert.ToString(failcount);
                 }
-                await Task.Delay(5000);
             }
             button.IsEnabled = true;
             button1.IsEnabled = true;
@@ -75,22 +90,24 @@ namespace App2
             if (blueRadio == null)
             {
                 textBlock.Text = "bluetooth cannot open";
+                button.IsEnabled = true;
+                button1.IsEnabled = true;
                 return;
             }
             // wifiRadio.StateChanged = Radio_StateChange
-            for (int count = 0; count < number; count++)
+            if (blueRadio.State == RadioState.Off)
             {
-                if (blueRadio.State == RadioState.On)
-                {
-                    await blueRadio.SetStateAsync(RadioState.Off);
-                    textBlock.Text = Convert.ToString(count + 1);                
-                }
-                else
-                {
-                    await blueRadio.SetStateAsync(RadioState.On);
-                    textBlock.Text = Convert.ToString(count + 1);                  
-                }
+                await blueRadio.SetStateAsync(RadioState.On);
+                //textBlock.Text = Convert.ToString(count + 1);
+            }
+            for (int count = 0; count < number; count++)
+            {         
+                await blueRadio.SetStateAsync(RadioState.Off);
                 await Task.Delay(5000);
+                await blueRadio.SetStateAsync(RadioState.On);
+                textBlock.Text = Convert.ToString(count + 1);                          
+                await Task.Delay(10000);
+                textBlock5.Text = Convert.ToString(count + 1);
             }
             button.IsEnabled = true;
             button1.IsEnabled = true;

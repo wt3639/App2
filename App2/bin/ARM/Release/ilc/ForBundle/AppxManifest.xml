@@ -7,7 +7,7 @@
 
   有关程序包清单文件的详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkID=241727
  -->
-  <Identity Name="aee096b4-c598-46ac-a5fc-e420ac4d4152" Publisher="CN=c" Version="1.0.0.0" ProcessorArchitecture="arm" />
+  <Identity Name="aee096b4-c598-46ac-a5fc-e420ac4d4152" Publisher="CN=c" Version="1.0.6.0" ProcessorArchitecture="arm" />
   <mp:PhoneIdentity PhoneProductId="aee096b4-c598-46ac-a5fc-e420ac4d4152" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>App2</DisplayName>
@@ -46,8 +46,8 @@
   </Applications>
   <Capabilities>
     <Capability Name="internetClient" />
-    <DeviceCapability Name="radios" />
     <!--This line is important-->
+    <DeviceCapability Name="radios" />
   </Capabilities>
   <build:Metadata>
     <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0" />

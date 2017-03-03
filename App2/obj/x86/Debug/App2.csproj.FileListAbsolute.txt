@@ -191,3 +191,5 @@ C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\obj\x86\Debug\Multipl
 C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\obj\x86\Debug\resources.en-us.resfiles
 C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\obj\x86\Debug\resources.en-us.resfiles.intermediate
 C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x86\Debug\Core\ForBundle\AppxManifest.xml
+C:\Users\c\documents\visual studio 2015\Projects\App2\App2\obj\x86\Debug\App2.csprojResolveAssemblyReference.cache

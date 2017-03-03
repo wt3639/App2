@@ -345,3 +345,4 @@ C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\obj\ARM\Release\ilc\i
 C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\obj\ARM\Release\ilc\intermediate\sgargs.rsp
 C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\obj\ARM\Release\ilc\intermediate\TransformedSRWR\System.Runtime.WindowsRuntime.dll
 C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\obj\ARM\Release\ilc\intermediate\TransformedSRWR\System.Runtime.WindowsRuntime.dll.ILTransformTask.repro
+C:\Users\c\documents\visual studio 2015\Projects\App2\App2\obj\ARM\Release\App2.csprojResolveAssemblyReference.cache
