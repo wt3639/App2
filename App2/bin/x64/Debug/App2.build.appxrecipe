@@ -22,8 +22,8 @@
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x64\Debug\App2.exe">
-      <PackagePath>entrypoint\App2.exe</PackagePath>
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x64\Debug\StressTest.exe">
+      <PackagePath>entrypoint\StressTest.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\c\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -364,8 +364,8 @@
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x64\Debug\App2.xr.xml">
-      <PackagePath>App2.xr.xml</PackagePath>
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x64\Debug\StressTest.xr.xml">
+      <PackagePath>StressTest.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -374,8 +374,8 @@
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x64\Debug\Core\App2.exe">
-      <PackagePath>App2.exe</PackagePath>
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x64\Debug\Core\StressTest.exe">
+      <PackagePath>StressTest.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
