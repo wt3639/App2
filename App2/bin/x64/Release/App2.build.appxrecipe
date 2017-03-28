@@ -22,15 +22,6 @@
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x64\Release\ilc\App2.dll">
-      <PackagePath>App2.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x64\Release\ilc\App2.exe">
-      <PackagePath>App2.exe</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x64\Release\ilc\App2.pdb">
-      <PackagePath>App2.pdb</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x64\Release\ilc\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
@@ -64,6 +55,15 @@
     <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x64\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x64\Release\ilc\StressTest.dll">
+      <PackagePath>StressTest.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x64\Release\ilc\StressTest.exe">
+      <PackagePath>StressTest.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x64\Release\ilc\StressTest.pdb">
+      <PackagePath>StressTest.pdb</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

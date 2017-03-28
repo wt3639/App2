@@ -12,14 +12,14 @@
 					<Base64Value>[Embedded Binary Data]</Base64Value>
 				</Candidate>
 			</NamedResource>
-			<NamedResource name="App2.xr.xml" uri="ms-resource://aee096b4-c598-46ac-a5fc-e420ac4d4152/Files/App2.xr.xml">
-				<Candidate type="Path">
-					<Value>App2.xr.xml</Value>
-				</Candidate>
-			</NamedResource>
 			<NamedResource name="MainPage.xbf" uri="ms-resource://aee096b4-c598-46ac-a5fc-e420ac4d4152/Files/MainPage.xbf">
 				<Candidate type="EmbeddedData">
 					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="StressTest.xr.xml" uri="ms-resource://aee096b4-c598-46ac-a5fc-e420ac4d4152/Files/StressTest.xr.xml">
+				<Candidate type="Path">
+					<Value>StressTest.xr.xml</Value>
 				</Candidate>
 			</NamedResource>
 			<ResourceMapSubtree name="Assets">

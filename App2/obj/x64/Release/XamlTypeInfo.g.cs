@@ -13,7 +13,7 @@ namespace App2
 {
     public partial class App : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {
-    private global::App2.App2_XamlTypeInfo.XamlTypeInfoProvider _provider;
+    private global::StressTest.App2_XamlTypeInfo.XamlTypeInfoProvider _provider;
 
         /// <summary>
         /// GetXamlType(Type)
@@ -22,7 +22,7 @@ namespace App2
         {
             if(_provider == null)
             {
-                _provider = new global::App2.App2_XamlTypeInfo.XamlTypeInfoProvider();
+                _provider = new global::StressTest.App2_XamlTypeInfo.XamlTypeInfoProvider();
             }
             return _provider.GetXamlTypeByType(type);
         }
@@ -34,7 +34,7 @@ namespace App2
         {
             if(_provider == null)
             {
-                _provider = new global::App2.App2_XamlTypeInfo.XamlTypeInfoProvider();
+                _provider = new global::StressTest.App2_XamlTypeInfo.XamlTypeInfoProvider();
             }
             return _provider.GetXamlTypeByName(fullName);
         }
@@ -49,7 +49,7 @@ namespace App2
     }
 }
 
-namespace App2.App2_XamlTypeInfo
+namespace StressTest.App2_XamlTypeInfo
 {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 14.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -179,8 +179,8 @@ namespace App2.App2_XamlTypeInfo
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
-            global::App2.App2_XamlTypeInfo.XamlSystemBaseType xamlType = null;
-            global::App2.App2_XamlTypeInfo.XamlUserType userType;
+            global::StressTest.App2_XamlTypeInfo.XamlSystemBaseType xamlType = null;
+            global::StressTest.App2_XamlTypeInfo.XamlUserType userType;
             string typeName = _typeNameTable[typeIndex];
             global::System.Type type = _typeTable[typeIndex];
 
@@ -188,18 +188,18 @@ namespace App2.App2_XamlTypeInfo
             {
 
             case 0:   //  App2.MainPage
-                userType = new global::App2.App2_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType = new global::StressTest.App2_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_0_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
             case 1:   //  Windows.UI.Xaml.Controls.Page
-                xamlType = new global::App2.App2_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::StressTest.App2_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 2:   //  Windows.UI.Xaml.Controls.UserControl
-                xamlType = new global::App2.App2_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::StressTest.App2_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
             return xamlType;
@@ -209,7 +209,7 @@ namespace App2.App2_XamlTypeInfo
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
-            global::App2.App2_XamlTypeInfo.XamlMember xamlMember = null;
+            global::StressTest.App2_XamlTypeInfo.XamlMember xamlMember = null;
             // No Local Properties
             return xamlMember;
         }
@@ -264,9 +264,9 @@ namespace App2.App2_XamlTypeInfo
 
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 14.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-    internal class XamlUserType : global::App2.App2_XamlTypeInfo.XamlSystemBaseType
+    internal class XamlUserType : global::StressTest.App2_XamlTypeInfo.XamlSystemBaseType
     {
-        global::App2.App2_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        global::StressTest.App2_XamlTypeInfo.XamlTypeInfoProvider _provider;
         global::Windows.UI.Xaml.Markup.IXamlType _baseType;
         bool _isArray;
         bool _isMarkupExtension;
@@ -280,7 +280,7 @@ namespace App2.App2_XamlTypeInfo
         global::System.Collections.Generic.Dictionary<string, string> _memberNames;
         global::System.Collections.Generic.Dictionary<string, object> _enumValues;
 
-        public XamlUserType(global::App2.App2_XamlTypeInfo.XamlTypeInfoProvider provider, string fullName, global::System.Type fullType, global::Windows.UI.Xaml.Markup.IXamlType baseType)
+        public XamlUserType(global::StressTest.App2_XamlTypeInfo.XamlTypeInfoProvider provider, string fullName, global::System.Type fullType, global::Windows.UI.Xaml.Markup.IXamlType baseType)
             :base(fullName, fullType)
         {
             _provider = provider;
@@ -472,7 +472,7 @@ namespace App2.App2_XamlTypeInfo
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     internal class XamlMember : global::Windows.UI.Xaml.Markup.IXamlMember
     {
-        global::App2.App2_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        global::StressTest.App2_XamlTypeInfo.XamlTypeInfoProvider _provider;
         string _name;
         bool _isAttachable;
         bool _isDependencyProperty;
@@ -481,7 +481,7 @@ namespace App2.App2_XamlTypeInfo
         string _typeName;
         string _targetTypeName;
 
-        public XamlMember(global::App2.App2_XamlTypeInfo.XamlTypeInfoProvider provider, string name, string typeName)
+        public XamlMember(global::StressTest.App2_XamlTypeInfo.XamlTypeInfoProvider provider, string name, string typeName)
         {
             _name = name;
             _typeName = typeName;

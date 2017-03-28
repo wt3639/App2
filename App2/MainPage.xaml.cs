@@ -15,6 +15,7 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using Windows.Devices.Radios;
 using Windows.Networking.Connectivity;
+using Windows.Devices.Enumeration;
 
 //“空白页”项模板在 http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409 上有介绍
 
@@ -93,7 +94,7 @@ namespace App2
                 button.IsEnabled = true;
                 button1.IsEnabled = true;
                 return;
-            }
+            }            
             // wifiRadio.StateChanged = Radio_StateChange
             if (blueRadio.State == RadioState.Off)
             {
@@ -107,6 +108,8 @@ namespace App2
                 await blueRadio.SetStateAsync(RadioState.On);
                 textBlock.Text = Convert.ToString(count + 1);                          
                 await Task.Delay(10000);
+                
+                
                 textBlock5.Text = Convert.ToString(count + 1);
             }
             button.IsEnabled = true;

@@ -1,2 +1,2 @@
-MainPackage=C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x64\Release\App2_1.0.7.0_x64.appx
-SymbolPackage=C:\Users\c\documents\visual studio 2015\Projects\App2\App2\AppPackages\App2_1.0.7.0_Test\App2_1.0.7.0_x64.appxsym
+MainPackage=C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x64\Release\App2_1.0.8.0_x64.appx
+SymbolPackage=C:\Users\c\documents\visual studio 2015\Projects\App2\App2\AppPackages\App2_1.0.8.0_Test\App2_1.0.8.0_x64.appxsym
