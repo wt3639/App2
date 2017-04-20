@@ -191,3 +191,4 @@ C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x64\Debug\StressT
 C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x64\Debug\Core\StressTest.exe
 C:\Users\c\documents\visual studio 2015\Projects\App2\App2\obj\x64\Debug\StressTest.exe
 C:\Users\c\documents\visual studio 2015\Projects\App2\App2\obj\x64\Debug\StressTest.pdb
+C:\Users\c\documents\visual studio 2015\Projects\App2\App2\obj\x64\Debug\App2.csprojResolveAssemblyReference.cache

@@ -16,7 +16,7 @@ using Windows.UI.Xaml.Navigation;
 using Windows.Devices.Radios;
 using Windows.Networking.Connectivity;
 using Windows.Devices.Enumeration;
-
+using Windows.Storage;
 //“空白页”项模板在 http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409 上有介绍
 
 namespace App2
@@ -41,6 +41,8 @@ namespace App2
             var radios = await Radio.GetRadiosAsync();
             var sucesscount = 0;
             var failcount = 0;
+            StorageFolder storageFolder = KnownFolders.PicturesLibrary;
+            StorageFile sampleFile = await storageFolder.CreateFileAsync("wifiTestLog.txt", CreationCollisionOption.GenerateUniqueName);
             Radio wifiRadio = radios.FirstOrDefault(radio => radio.Kind == RadioKind.WiFi);
             if (wifiRadio == null)
             {
@@ -63,17 +65,35 @@ namespace App2
                 await wifiRadio.SetStateAsync(RadioState.On);
                 textBlock.Text = Convert.ToString(count+1);                 
                 await Task.Delay(10000);
+                //StorageFile sampleFile = await storageFolder.GetFileAsync("wifiTestLog.txt");
+                await FileIO.AppendTextAsync(sampleFile , DateTime.Now.ToString() + " wifi open successfully,test count:" + (count+1)+"\r\n");
+                //var Foder = KnownFolders.DocumentsLibrary.ToString() + "\\WifiTestLog.txt";
+                //var Folder = "D:\\WifiTestLog.txt";
+                /*
+                await Task.Run(() =>
+                {
+                    var folder = KnownFolders.PicturesLibrary.ToString();
+                    
+                    //File.SetAttributes(Folder, System.IO.FileAttributes.Normal);
+                    File.WriteAllText(folder, DateTime.Now.ToString() + "wifi open successfully,test count:" + count);                  
+                });
+                */
                 var temp = NetworkInformation.GetInternetConnectionProfile();
                 if (temp != null && temp.IsWlanConnectionProfile)
                 {
                     sucesscount++;
                     textBlock5.Text = Convert.ToString(sucesscount);
+                    // File.AppendAllText(Folder, DateTime.Now.ToString() + "wifi connected to the Internet,success count:" + count);
+                    await FileIO.AppendTextAsync(sampleFile, DateTime.Now.ToString() + " wifi connected to the Internet,success count:" + sucesscount + "\r\n");
                 }
                 else
                 {
                     failcount++;
                     textBlock6.Text = Convert.ToString(failcount);
+                    // File.AppendAllText(Folder, DateTime.Now.ToString() + "wifi cannot connect to the Internet,fail count:" + count);
+                    await FileIO.AppendTextAsync(sampleFile, DateTime.Now.ToString() + " wifi cannot connect to the Internet,fail count:" + sucesscount + "\r\n");
                 }
+                
             }
             button.IsEnabled = true;
             button1.IsEnabled = true;
@@ -87,6 +107,8 @@ namespace App2
             int number = Convert.ToInt32(i);
             var accessLevel = await Radio.RequestAccessAsync();
             var radios = await Radio.GetRadiosAsync();
+            StorageFolder storageFolder = KnownFolders.PicturesLibrary;
+            StorageFile sampleFile = await storageFolder.CreateFileAsync("BTTestLog.txt", CreationCollisionOption.GenerateUniqueName);
             Radio blueRadio = radios.FirstOrDefault(radio => radio.Kind == RadioKind.Bluetooth);
             if (blueRadio == null)
             {
@@ -108,8 +130,8 @@ namespace App2
                 await blueRadio.SetStateAsync(RadioState.On);
                 textBlock.Text = Convert.ToString(count + 1);                          
                 await Task.Delay(10000);
-                
-                
+                await FileIO.AppendTextAsync(sampleFile, DateTime.Now.ToString() + " BT open successfully,test count:" + (count + 1) + "\r\n");
+
                 textBlock5.Text = Convert.ToString(count + 1);
             }
             button.IsEnabled = true;

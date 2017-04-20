@@ -1,1 +1,1 @@
-C:\Users\c\documents\visual studio 2015\Projects\App2\App2\AppPackages\App2_1.0.8.0_Test\App2_1.0.8.0_x64.appxbundle
+C:\Users\c\documents\visual studio 2015\Projects\App2\App2\AppPackages\App2_1.0.10.0_Test\App2_1.0.10.0_x64.appxbundle

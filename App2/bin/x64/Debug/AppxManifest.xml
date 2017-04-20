@@ -7,7 +7,7 @@
 
   有关程序包清单文件的详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkID=241727
  -->
-  <Identity Name="aee096b4-c598-46ac-a5fc-e420ac4d4152" Publisher="CN=c" Version="1.0.7.0" ProcessorArchitecture="x64" />
+  <Identity Name="com.stresstest" Publisher="CN=c" Version="1.0.9.0" ProcessorArchitecture="x64" />
   <mp:PhoneIdentity PhoneProductId="aee096b4-c598-46ac-a5fc-e420ac4d4152" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>StressTest</DisplayName>
@@ -15,22 +15,30 @@
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
-    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10586.0" MaxVersionTested="10.0.14393.0" />
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10240.0" MaxVersionTested="10.0.14393.0" />
   </Dependencies>
   <Resources>
     <Resource Language="ZH-CN" />
   </Resources>
   <Applications>
     <Application Id="App" Executable="StressTest.exe" EntryPoint="StressTest.App">
-      <uap:VisualElements DisplayName="StressTest" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="StressTest" BackgroundColor="transparent">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"></uap:DefaultTile>
+      <uap:VisualElements DisplayName="StressTest" Square150x150Logo="Assets\Wide150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="StressTest" BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
       </uap:VisualElements>
     </Application>
   </Applications>
   <Capabilities>
     <Capability Name="internetClient" />
+    <uap:Capability Name="picturesLibrary" />
+    <uap:Capability Name="videosLibrary" />
+    <uap:Capability Name="musicLibrary" />
     <!--This line is important-->
+    <DeviceCapability Name="bluetooth" />
     <DeviceCapability Name="radios" />
   </Capabilities>
   <build:Metadata>

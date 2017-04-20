@@ -16,25 +16,25 @@
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>9C028A5378E3613171A7D48E38990B5BD368D7FDA822BCB7D9315065D1FE4F81</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>aee096b4-c598-46ac-a5fc-e420ac4d4152_1.0.7.0_x64__e83zetzdn3mnt</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>aee096b4-c598-46ac-a5fc-e420ac4d4152_e83zetzdn3mnt!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>aee096b4-c598-46ac-a5fc-e420ac4d4152</RegisteredPackageID>
+    <RegisteredManifestChecksum>05420E76CDC4B1A1E5406A7913B1EB5530A6EB8D594B1E664BAED50C8B86CA6D</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>com.stresstest_1.0.9.0_x64__e83zetzdn3mnt</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>com.stresstest_e83zetzdn3mnt!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>com.stresstest</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=c</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.7.0</RegisteredVersion>
+    <RegisteredVersion>1.0.9.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-03T03:00:22.295</Modified>
+      <Modified>2017-04-20T08:16:53.040</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x64\Debug\StressTest.exe">
       <PackagePath>entrypoint\StressTest.exe</PackagePath>
-      <Modified>2017-03-03T03:00:19.071</Modified>
+      <Modified>2017-04-20T08:16:48.302</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\c\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -448,9 +448,101 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-07-22T15:11:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2017-02-16T02:46:03.922</Modified>
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <Modified>2017-04-20T07:21:59.034</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <Modified>2017-04-20T07:21:59.034</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <Modified>2017-04-20T07:21:59.034</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <Modified>2017-04-20T07:21:59.034</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-20T08:15:56.112</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-20T08:15:18.998</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-20T08:15:32.353</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-20T08:14:00.262</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-20T08:12:18.481</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Square44x44Logo.targetsize-16_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-20T08:12:18.481</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-20T08:16:10.903</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-20T08:14:26.792</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Square44x44Logo.targetsize-256_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-20T08:14:26.792</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-20T08:15:43.011</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Square44x44Logo.targetsize-48_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-20T08:13:35.612</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Wide150x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-20T07:37:59.842</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Wide150x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-20T07:37:21.451</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Wide150x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-20T07:37:46.405</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Wide150x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-20T07:38:11.578</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Wide150x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-20T07:38:25.460</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -463,18 +555,17 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T09:22:56.000</Modified>
+      <Modified>2017-04-20T07:21:59.034</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T09:22:56.000</Modified>
+      <Modified>2017-04-20T08:15:02.518</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T09:22:56.000</Modified>
+      <Modified>2017-04-20T08:16:10.903</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
@@ -485,6 +576,10 @@
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T09:22:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2017-02-16T02:46:03.922</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x64\Debug\StressTest.xr.xml">
       <PackagePath>StressTest.xr.xml</PackagePath>
@@ -497,11 +592,11 @@
     <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-03T03:00:21.792</Modified>
+      <Modified>2017-04-20T08:16:52.135</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x64\Debug\Core\StressTest.exe">
       <PackagePath>StressTest.exe</PackagePath>
-      <Modified>2017-03-03T03:00:22.287</Modified>
+      <Modified>2017-04-20T08:16:53.029</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
