@@ -91,7 +91,7 @@ namespace App2
                     failcount++;
                     textBlock6.Text = Convert.ToString(failcount);
                     // File.AppendAllText(Folder, DateTime.Now.ToString() + "wifi cannot connect to the Internet,fail count:" + count);
-                    await FileIO.AppendTextAsync(sampleFile, DateTime.Now.ToString() + " wifi cannot connect to the Internet,fail count:" + sucesscount + "\r\n");
+                    await FileIO.AppendTextAsync(sampleFile, DateTime.Now.ToString() + " wifi cannot connect to the Internet,fail count:" + failcount + "\r\n");
                 }
                 
             }

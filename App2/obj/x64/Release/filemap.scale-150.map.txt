@@ -3,7 +3,7 @@
 "ResourceDimensions"		"scale-150"
 
 [Files]
-"C:\Users\c\documents\visual studio 2015\Projects\App2\App2\obj\x64\Release\filemap.scale-150.pri"			"resources.pri"
-"C:\Users\c\documents\visual studio 2015\Projects\App2\App2\obj\x64\Release\PackageLayout\Assets\Wide150x150Logo.scale-150.png"			"Assets\Wide150x150Logo.scale-150.png"
-"C:\Users\c\documents\visual studio 2015\Projects\App2\App2\obj\x64\Release\PackageLayout\Assets\Square44x44Logo.scale-150.png"			"Assets\Square44x44Logo.scale-150.png"
-"C:\Users\c\documents\visual studio 2015\Projects\App2\App2\obj\x64\Release\PackageLayout\Assets\Square150x150Logo.scale-150.png"			"Assets\Square150x150Logo.scale-150.png"
+"C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\obj\x64\Release\filemap.scale-150.pri"			"resources.pri"
+"C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\obj\x64\Release\PackageLayout\Assets\Wide150x150Logo.scale-150.png"			"Assets\Wide150x150Logo.scale-150.png"
+"C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\obj\x64\Release\PackageLayout\Assets\Square44x44Logo.scale-150.png"			"Assets\Square44x44Logo.scale-150.png"
+"C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\obj\x64\Release\PackageLayout\Assets\Square150x150Logo.scale-150.png"			"Assets\Square150x150Logo.scale-150.png"
