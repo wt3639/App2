@@ -52,6 +52,9 @@ namespace App2
                 return;
             }
             // wifiRadio.StateChanged = Radio_StateChange
+            textBlock.Text = "0";
+            textBlock5.Text = "0";
+            textBlock6.Text = "0";
             if (wifiRadio.State == RadioState.Off)
             {
                 await wifiRadio.SetStateAsync(RadioState.On);
@@ -116,8 +119,11 @@ namespace App2
                 button.IsEnabled = true;
                 button1.IsEnabled = true;
                 return;
-            }            
+            }
             // wifiRadio.StateChanged = Radio_StateChange
+            textBlock.Text = "0";
+            textBlock5.Text = "0";
+            textBlock6.Text = "0";
             if (blueRadio.State == RadioState.Off)
             {
                 await blueRadio.SetStateAsync(RadioState.On);
