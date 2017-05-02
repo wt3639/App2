@@ -1,6 +1,6 @@
-MainPackage=C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\bin\x64\Release\App2_1.0.12.0_x64.appx
-SymbolPackage=C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\AppPackages\App2_1.0.12.0_Test\App2_1.0.12.0_x64.appxsym
-ResourcePack=C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\bin\x64\Release\App2_1.0.12.0_scale-100.appx
-ResourcePack=C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\bin\x64\Release\App2_1.0.12.0_scale-125.appx
-ResourcePack=C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\bin\x64\Release\App2_1.0.12.0_scale-150.appx
-ResourcePack=C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\bin\x64\Release\App2_1.0.12.0_scale-400.appx
+MainPackage=C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x64\Release\App2_1.0.14.0_x64.appx
+SymbolPackage=C:\Users\c\documents\visual studio 2015\Projects\App2\App2\AppPackages\App2_1.0.14.0_Test\App2_1.0.14.0_x64.appxsym
+ResourcePack=C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x64\Release\App2_1.0.14.0_scale-100.appx
+ResourcePack=C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x64\Release\App2_1.0.14.0_scale-125.appx
+ResourcePack=C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x64\Release\App2_1.0.14.0_scale-150.appx
+ResourcePack=C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x64\Release\App2_1.0.14.0_scale-400.appx

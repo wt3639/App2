@@ -10,19 +10,19 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>aee096b4-c598-46ac-a5fc-e420ac4d4152</PackageIdentityName>
     <PackageIdentityPublisher>CN=c</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\c\documents\visual studio 2015\Projects\App2\App2\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\bin\x64\Debug\StressTest.exe">
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x64\Debug\StressTest.exe">
       <PackagePath>entrypoint\StressTest.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\c\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
@@ -334,122 +334,122 @@
     <AppxPackagedFile Include="C:\Users\c\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\Assets\Square150x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Square150x150Logo.scale-125.png">
       <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\Assets\Square150x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\Assets\Square44x44Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\Assets\Square44x44Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\Assets\Square44x44Logo.targetsize-16_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Square44x44Logo.targetsize-16_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\Assets\Square44x44Logo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\Assets\Square44x44Logo.targetsize-256_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Square44x44Logo.targetsize-256_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\Assets\Square44x44Logo.targetsize-48_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Square44x44Logo.targetsize-48_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\Assets\Wide150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Wide150x150Logo.scale-100.png">
       <PackagePath>Assets\Wide150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\Assets\Wide150x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Wide150x150Logo.scale-125.png">
       <PackagePath>Assets\Wide150x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\Assets\Wide150x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Wide150x150Logo.scale-150.png">
       <PackagePath>Assets\Wide150x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\Assets\Wide150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Wide150x150Logo.scale-200.png">
       <PackagePath>Assets\Wide150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\Assets\Wide150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Wide150x150Logo.scale-400.png">
       <PackagePath>Assets\Wide150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\bin\x64\Debug\StressTest.xr.xml">
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x64\Debug\StressTest.xr.xml">
       <PackagePath>StressTest.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\c\Documents\Visual Studio 2015\Projects\App2\App2\bin\x64\Debug\Core\StressTest.exe">
+    <AppxPackagedFile Include="C:\Users\c\documents\visual studio 2015\Projects\App2\App2\bin\x64\Debug\Core\StressTest.exe">
       <PackagePath>StressTest.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

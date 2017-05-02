@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3" IgnorableNamespaces="uap mp uap3">
-  <Identity Name="com.stresstest" Publisher="CN=c" Version="1.0.12.0" />
+  <Identity Name="com.stresstest" Publisher="CN=c" Version="1.0.14.0" />
   <mp:PhoneIdentity PhoneProductId="aee096b4-c598-46ac-a5fc-e420ac4d4152" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>StressTest</DisplayName>

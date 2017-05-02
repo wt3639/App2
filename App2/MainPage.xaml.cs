@@ -17,6 +17,7 @@ using Windows.Devices.Radios;
 using Windows.Networking.Connectivity;
 using Windows.Devices.Enumeration;
 using Windows.Storage;
+using Windows.Devices.Bluetooth;
 //“空白页”项模板在 http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409 上有介绍
 
 namespace App2
@@ -31,6 +32,9 @@ namespace App2
             this.InitializeComponent();          
         }      
 
+        /**
+         * start wifi test
+         */
         private async void button_Click(object sender, RoutedEventArgs e)
         {            
             button.IsEnabled = false;
@@ -67,7 +71,7 @@ namespace App2
                 await Task.Delay(5000);
                 await wifiRadio.SetStateAsync(RadioState.On);
                 textBlock.Text = Convert.ToString(count+1);                 
-                await Task.Delay(10000);
+                await Task.Delay(20000);
                 //StorageFile sampleFile = await storageFolder.GetFileAsync("wifiTestLog.txt");
                 await FileIO.AppendTextAsync(sampleFile , DateTime.Now.ToString() + " wifi open successfully,test count:" + (count+1)+"\r\n");
                 //var Foder = KnownFolders.DocumentsLibrary.ToString() + "\\WifiTestLog.txt";
@@ -101,13 +105,17 @@ namespace App2
             button.IsEnabled = true;
             button1.IsEnabled = true;
         }
-
+        /**
+         * start bluetooth test
+         */
         private async void button1_Click(object sender, RoutedEventArgs e)
         {
             button.IsEnabled = false;
             button1.IsEnabled = false;
             var i = textBox.Text;
             int number = Convert.ToInt32(i);
+            var sucessCnt =0;
+            var failCnt = 0;
             var accessLevel = await Radio.RequestAccessAsync();
             var radios = await Radio.GetRadiosAsync();
             StorageFolder storageFolder = KnownFolders.PicturesLibrary;
@@ -115,7 +123,7 @@ namespace App2
             Radio blueRadio = radios.FirstOrDefault(radio => radio.Kind == RadioKind.Bluetooth);
             if (blueRadio == null)
             {
-                textBlock.Text = "bluetooth cannot open";
+                textBlock.Text = "bluetooth cannot open, please turn on the bluetooth first";
                 button.IsEnabled = true;
                 button1.IsEnabled = true;
                 return;
@@ -134,11 +142,25 @@ namespace App2
                 await blueRadio.SetStateAsync(RadioState.Off);
                 await Task.Delay(5000);
                 await blueRadio.SetStateAsync(RadioState.On);
-                textBlock.Text = Convert.ToString(count + 1);                          
-                await Task.Delay(10000);
+                textBlock.Text = Convert.ToString(count + 1);                                 
                 await FileIO.AppendTextAsync(sampleFile, DateTime.Now.ToString() + " BT open successfully,test count:" + (count + 1) + "\r\n");
-
-                textBlock5.Text = Convert.ToString(count + 1);
+                await Task.Delay(20000);
+                var selector = BluetoothDevice.GetDeviceSelectorFromConnectionStatus(BluetoothConnectionStatus.Connected);
+                var btDevices = await DeviceInformation.FindAllAsync(selector);
+                var btDevice = btDevices.FirstOrDefault();
+                if (btDevice == null)
+                {
+                    failCnt++;
+                    textBlock6.Text = Convert.ToString(failCnt);
+                    await FileIO.AppendTextAsync(sampleFile, DateTime.Now.ToString() + " wifi cannot connect to the Internet,fail count:" + failCnt + "\r\n");
+                }
+                else
+                {
+                    sucessCnt++;
+                    textBlock5.Text = Convert.ToString(sucessCnt);
+                    await FileIO.AppendTextAsync(sampleFile, DateTime.Now.ToString() + " wifi connected to the Internet,success count:" + sucessCnt + "\r\n");
+                }
+                
             }
             button.IsEnabled = true;
             button1.IsEnabled = true;

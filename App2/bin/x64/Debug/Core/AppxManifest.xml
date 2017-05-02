@@ -7,7 +7,7 @@
 
   有关程序包清单文件的详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkID=241727
  -->
-  <Identity Name="com.stresstest" Publisher="CN=c" Version="1.0.12.0" ProcessorArchitecture="x64" />
+  <Identity Name="com.stresstest" Publisher="CN=c" Version="1.0.13.0" ProcessorArchitecture="x64" />
   <mp:PhoneIdentity PhoneProductId="aee096b4-c598-46ac-a5fc-e420ac4d4152" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>StressTest</DisplayName>
